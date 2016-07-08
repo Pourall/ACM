@@ -22,6 +22,7 @@ int vis[3][2*size+2];
 int check(int row,int col){
  return !(vis[0][col] || vis[1][row + col] || vis[2][row - col + size]);  
 }
+
 void dfs(int row){
 	if(row == size+1){
        cnt++;
