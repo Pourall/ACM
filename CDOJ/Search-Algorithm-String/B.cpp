@@ -17,6 +17,7 @@ struct node{
 
 using namespace std;
 
+
 int can_move(int x,int y,int z,int dz){
 	if(x<0||y<0||z<0||x>=l||y>=r||z>=n){
 		return 0;
