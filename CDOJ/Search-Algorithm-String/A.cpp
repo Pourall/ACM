@@ -1,4 +1,5 @@
 /*
+CDOJ 2016 UESTC Training for Search Algorithm & String A
 八皇后问题
 Input
 
