@@ -13,7 +13,7 @@ struct node{
 	long long max;
 };
 
-node segment_tree[4*N+1]; 
+node segment_tree[4*N]; 
 
 void biuld_tree(int id,int l,int r){
      segment_tree[id].left=l;
